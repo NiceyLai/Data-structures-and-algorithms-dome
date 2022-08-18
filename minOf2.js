@@ -15,8 +15,8 @@ let minOf2 = ([a, b]) => (a < b ? a : b)
 // 调用方法
 // 小白调用
 minOf2([2, 6]);
-console.log(minOf2([2, 6]));
+// console.log(minOf2([2, 6]));
 
 // 高手调用
 minOf2.call(null, [355, 190])
-console.log(minOf2.call(null, [355, 190]));
+// console.log(minOf2.call(null, [355, 190]));
